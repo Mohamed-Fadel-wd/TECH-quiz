@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>quiz</title>
+  </head>
+  <body>
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-1 my-4">TECH Quiz</h2>
+      </div>
+    </div>
+
+    <div class="result py-lg-5 d-none bg-light text-center">
+      <div class="container lead">
+        <p>
+          You are
+          <span class="percentage text-primary display-4 p-3">0%</span> Tech
+          Person
+        </p>
+      </div>
+    </div>
+    <!-- quiz section -->
+
+    <div class="quiz py-4 bg-primary">
+      <div class="container">
+        <h2 class="my5 text-white font-weight-normal">
+          Welcome to the tech quiz. Answer the following questions
+        </h2>
+        <form action="" class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal fs-1">
+              1. When was the first launch of iphone
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label fs-3">2009</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label fs-3">2007</label>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal fs-1">
+                2. Which of these is not a peripheral, in computer terms?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" checked />
+                <label class="form-check-label fs-3">Monitor</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B" />
+                <label class="form-check-label fs-3">Motherboard</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal fs-1">
+                3. What does the Internet prefix WWW stand for?
+              </p>
+              <div class="form-check my-3 text-white-50">
+                <input type="radio" name="q3" value="A" checked />
+                <label class="form-check-label fs-3"
+                  >Western Washington World</label
+                >
+              </div>
+              <div class="form-check my-3 text-white-50">
+                <input type="radio" name="q3" value="B" />
+                <label class="form-check-label fs-3">World Wide Web</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal fs-1">
+                4. Which of these is a file format for digital images?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" checked />
+                <label class="form-check-label fs-3"> IBM</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B" />
+                <label class="form-check-label fs-3">JPG</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal fs-1">
+                5. Who was responsible for some of the earliest, widely
+                influential development of military rockets?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="A" checked />
+                <label class="form-check-label fs-3">Elon Musk</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="B" />
+                <label class="form-check-label fs-3">William Congreve</label>
+              </div>
+            </div>
+            <div class="text-center">
+              <input type="submit" class="btn btn-light" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
